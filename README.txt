@@ -4,12 +4,12 @@ Longformer model (Transformers).
 
 The directory contents are as follows:
 
-group9_ass2_model.ipynb						- A Jupyter notebook to perform a classification task.
-best_model.pkl							- A pkl file which holding the final classifier of this project.
+scientific_scholar_doc_classification.ipynb			- A Jupyter notebook to perform a classification task.
+best_model.pkl							- A pkl file which holding the final classifier of this project. (cannot be included due to large size)
 train_data_labels.csv						- A csv file contains training data.
 test_labels.csv							- A csv file stores test data. 
 pred_labels.csv							- A csv file contains example results from running the program. 
-from_arxiv.csv							- dataset from Kaggle arxiv, already filtered with abstracts and labels
+from_arxiv.csv							- dataset from Kaggle arxiv, already filtered with abstracts and labels (download from Kaggle, cannot be included due to large size)
 vocab.json							- json file with vocalbulary
 README								- This document.
 
@@ -44,8 +44,8 @@ Running Instruction
 
 1. Create a google drive account, upload all the implementation file into one folder
 2. Ensure that all relevant files are located in the same directory as ‘scientific_scholar_doc_classification.ipynb’ file. 
-3. Open colab, either upload file group9_ass2_model.ipynb, or read it from the google drive
-4. Run ‘group9_ass2_model.ipynb’  with Google Colaboratory.
+3. Open colab, either upload file scientific_scholar_doc_classification.ipynb, or read it from the google drive
+4. Run ‘scientific_scholar_doc_classification.ipynb’  with Google Colaboratory.
 5. By default, the final model in ‘best_model.pkl’ will be read and used as a classifier. This is to save model
    training time which could take up to 9 hours. PLEASE DO NOT RUN ALL CELLS AT ONCE. In SECTION 6, if the cell contain
    this line learn = load_learner(path,'best_model.pkl') (Second cell), please ignore and do not run the next three cells to 
