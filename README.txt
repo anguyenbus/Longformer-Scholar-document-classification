@@ -43,7 +43,7 @@ are described as follows.
 Running Instruction
 
 1. Create a google drive account, upload all the implementation file into one folder
-2. Ensure that all relevant files are located in the same directory as ‘group9_ass2_model.ipynb’ file. 
+2. Ensure that all relevant files are located in the same directory as ‘scientific_scholar_doc_classification.ipynb’ file. 
 3. Open colab, either upload file group9_ass2_model.ipynb, or read it from the google drive
 4. Run ‘group9_ass2_model.ipynb’  with Google Colaboratory.
 5. By default, the final model in ‘best_model.pkl’ will be read and used as a classifier. This is to save model
